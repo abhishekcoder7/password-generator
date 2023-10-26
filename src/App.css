@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@600&family=IBM+Plex+Mono:wght@500&family=Inconsolata&family=Josefin+Sans&family=Kanit&family=Lato&family=Noto+Sans&family=Roboto+Mono:wght@600&family=Russo+One&family=Space+Grotesk:wght@500&family=Ubuntu:wght@500&family=Young+Serif&display=swap");
+
+.wrapper {
+  background-color: #b2c8ba;
+  height: 200px;
+  width: 600px;
+  margin-top: 50px;
+  border-radius: 20px;
+  box-shadow: 0 0 5px black;
+}
+h1 {
+  color: rgb(206, 206, 206);
+  text-shadow: 0 0 5px black;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 3rem;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.input-wrapper {
+  display: flex;
+  height: auto;
+}
+#password-field {
+  width: 400px;
+  height: 67px;
+  margin-top: 10px;
+  margin-left: 35px;
+  border-radius: 20px 0px 0px 20px;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #212121;
+  background-color: #f9b572;
+}
+#copy-btn {
+  height: 72px;
+  width: 100px;
+  margin-top: 10px;
+  color: white;
+  font-size: 1.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #212121;
+  border-radius: 0px 20px 20px 0px;
+  cursor: pointer;
+}
+.setter-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 100px;
+}
+input[type="checkbox"] {
+  width: 30px;
+  height: 30px;
+}
+label {
+  font-weight: 800;
+  font-size: 18px;
+  font-family: "Gabarito", sans-serif;
+  font-family: "IBM Plex Mono", monospace;
+  font-family: "Inconsolata", monospace;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Kanit", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Russo One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  font-family: "Young Serif", serif;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  h1{
+    margin-top: 10px;
+    font-size: 1.9rem;
+  }
+  .input-wrapper {
+    justify-content: center;
+  }
+  .wrapper{
+    height: 400px;
+    width: 100%;
+    background-color:#86A789 ;
+    
+    box-shadow: none;
+  }
+  .setter-wrapper{
+    flex-direction: column;
+    margin-top: 70px;
+  }
+  #password-field{
+    width: 250px;
+    height: 40px;
+    font-size: 1.4rem;
+    margin-left: 12px;
+  }
+  #copy-btn{
+    font-size: 1.5rem;
+    height: 40px;
+    margin-right: 12px;
+  }
+  .inner-wrapper{
+    flex-direction: row;
+    margin-top: 40px;
+  }
+  
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: #faf8ed;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 250px;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  background: #a8dadc;
+  height: 1.9rem;
+  border-radius: 20px;
+}
+/***** Thumb Styles *****/
+/***** Chrome, Safari, Opera, and Edge Chromium *****/
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  /* Centers thumb on the track */
+  background-color: #3f8fff;
+  box-shadow: 0 0 2px black;
+  height: 1.6rem;
+  width: 1.5rem;
+  margin-top: 2.5px;
+  border-radius: 50%;
+}
+.inner-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
